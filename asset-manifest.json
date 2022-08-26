@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Saran-Barua/static/css/main.7521f064.css",
+    "main.js": "/Saran-Barua/static/js/main.3a8ec3dd.js",
+    "static/js/787.de1bf453.chunk.js": "/Saran-Barua/static/js/787.de1bf453.chunk.js",
+    "index.html": "/Saran-Barua/index.html",
+    "main.7521f064.css.map": "/Saran-Barua/static/css/main.7521f064.css.map",
+    "main.3a8ec3dd.js.map": "/Saran-Barua/static/js/main.3a8ec3dd.js.map",
+    "787.de1bf453.chunk.js.map": "/Saran-Barua/static/js/787.de1bf453.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7521f064.css",
+    "static/js/main.3a8ec3dd.js"
+  ]
+}
