@@ -1,0 +1,192 @@
+.home {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgb(6 32 51 / 89%);
+    padding-top: 70px;
+}
+.homewrapper.row {
+    margin-top: 40px;
+}
+.homeimg{
+    /* width: 60%; */
+    height: 300px;
+    width: 300px;
+    border-radius: 30px 70px 30px 70px;
+    border: 10px solid #219f94;
+    margin-left: 90px;
+}
+.homeright.col-md-7 {
+    margin-top: 30px;
+}
+.homeright {
+    color: #219f94;
+}
+.homeright hr {
+    width: 100px;
+    /* margin: auto; */
+    padding: 3px 0px;
+    border: none;
+    background-color: rgb(192, 192, 205);
+    border-radius: 50px;
+    /* margin-top: -9px; */
+    margin-bottom: 10px;
+}
+.homeright h1{
+    font-size: 50px;
+}
+.iconsbtn {
+    margin-top: 30px;
+}
+
+a.iconlink {
+    /* border: 1px solid; */
+    padding: 5px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 30px 70px 30px 70px;
+    color: white;
+    font-weight: 600;
+    background-color: #219f94;
+
+}
+.iconlink:hover{
+    background-color: rgb(192, 192, 205);
+    transition: .5s;
+    color: rgb(96, 96, 164);
+  
+}
+
+
+
+.icon{
+    font-size: 20px;
+}
+
+/* ------skill-------- */
+
+
+.skillcontent{
+    text-align: center;
+    color: #219f94;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+.skillcontent hr {
+    width: 100px;
+    margin: auto;
+    padding: 3px 0px;
+    border: none;
+    background-color: rgb(192, 192, 205);
+    border-radius: 50px;
+    /* margin-top: -9px; */
+    margin-bottom: 10px;
+}
+.skill{
+    width: 50%;
+    /* text-align: center; */
+}
+.softskill.row {
+    margin-top: 40px;
+}
+.progress{
+    height: 10px !important;
+}
+.softskill h1 {
+    font-size: 20px;
+    color: #219f94;
+}
+.skillwrapper.col h1 {
+    font-size: 20px;
+    color: #219f94;
+}
+.progress-bar{
+    background-color: #5c483c !important;
+    color: #219f94;
+}
+
+
+/* -------projects------- */
+
+
+.projectContent {
+    text-align: center;
+    margin-top: 40px;
+    color: #219f94;
+
+}
+.projectContent hr {
+    width: 100px;
+    margin: auto;
+    padding: 3px 0px;
+    border: none;
+    background-color: rgb(192, 192, 205);
+    border-radius: 50px;
+    /* margin-top: -9px; */
+    margin-bottom: 10px;
+}
+.project.row {
+    margin-top: 20px;
+}
+.projectimg img {
+    width: 95%;
+    border-radius: 30px 70px 30px 70px;
+}
+.project{
+    justify-content: space-between;
+}
+
+
+/* ------contact-------- */
+
+
+
+.contactme {
+    text-align: center;
+    color: #219f94;
+    margin-top: 30px;
+}
+.hr{
+    width: 100%;
+    text-align: center;
+}
+.hr hr {
+    width: 100px;
+    margin: auto;
+    padding: 3px 0px;
+    border: none;
+    background-color: rgb(192, 192, 205);
+    border-radius: 50px;
+    /* margin-top: -9px; */
+    margin-bottom: 10px;
+}
+input.input {
+    width: 40%;
+    padding: 5px 30px;
+    outline: none;
+    border-radius: 30px 70px 30px 70px;
+}
+.messes{
+    width: 40%;
+    padding: 15px 30px;
+    outline: none;
+    border-radius: 30px 70px 30px 70px;
+}
+
+
+
+/* -----footer------ */
+
+
+.fotter img {
+    width: 200px;
+}
+.fotter {
+    text-align: center;
+    margin-top: 60px;
+    color: #219f94;
+}
+.fotter h4 {
+    padding: 20px;
+}

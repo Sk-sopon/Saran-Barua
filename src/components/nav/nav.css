@@ -1,0 +1,37 @@
+img.logo {
+    width: 100px;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+   
+}
+.topwrapper{
+    background: #4c5265;
+    background: radial-gradient(circle,#4c5265 0,#3d3e50 100%);
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 0 10px #219f94;
+}
+.ul a {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.ul {
+    margin: 10px;
+    background-color: #219f94;
+    color: rgb(61 61 88) !important;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 30px 70px 30px 70px;
+    width: 100px;
+    padding: 5px 0px;
+}
+.ul:hover{
+    background-color: rgb(192, 192, 205);
+    transition: .5s;
+    color: rgb(96, 96, 164) !important;
+  
+}

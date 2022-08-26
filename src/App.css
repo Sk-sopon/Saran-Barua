@@ -1,0 +1,28 @@
+body {
+    /* background-color: #323949 !important; */
+}
+.app Button{
+    width: 300px;
+}
+
+
+
+
+.App {
+    /* background-color: #4f19e399; */
+}
+.bgright img {
+    width: 60%;
+    float: right;
+}
+.bgleft img{
+    width: 300px;
+
+}
+.bagimg{
+    position: relative;
+}
+.bgleftbottom.col {
+    margin-top: 250px;
+    margin-left: -200px;
+}
