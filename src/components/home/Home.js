@@ -9,19 +9,32 @@ import Type from '../typewriter/Type';
 
 
 export default function Home() {
-    const html = 90;
-    const css = 80;
-    const javascript = 90;
-    const nodejs = 70;
-    const express = 80;
+    const Html = 90;
+    const Css = 80;
+    const Javascript = 90;
+    const Bootstrap = 70;
+    const ReactJs = 80;
+    const Wordpress = 90;
+
+    
+    // klj
     const mongodb = 90;
+    const nodeJs = 80;
+    const express = 90;
+    const Laravel = 70;
+    const Php = 80;
+    const DatabaseMysql =90;
+    
+
+
+
     return (
         <div className='home'>
             <Top className='topber' />
             <Container className='homecontent'>
                 <Row className='homewrapper'>
                     <Col md={5} className='homeimgwrapper' >
-                        <img className='homeimg' src="images/100692688_687718382047620_3369324521415770112_n.jpg" alt="" />
+                        <img className='homeimg' src="images/2.jpg" alt="" />
                     </Col>
 
                     <Col className='homeright' md={7}>
@@ -65,44 +78,44 @@ export default function Home() {
                 <Row className='softskill'>
                     <Col md={6} className='skillwrapper'>
 
-                        <h1>html</h1>
+                        <h1>Html</h1>
                         {/* <ProgressBar now={html} label={`${html}%`} />; */}
-                        <ProgressBar now={html} label={`${html}%`} />
+                        <ProgressBar now={Html} label={`${Html}%`} />
 
-                        <h1>css</h1>
-                        <ProgressBar now={css} label={`${css}%`} />
+                        <h1>Css</h1>
+                        <ProgressBar now={Css} label={`${Css}%`} />
 
-                        <h1>javascript</h1>
-                        <ProgressBar now={javascript} label={`${javascript}%`} />
+                        <h1>Javascript</h1>
+                        <ProgressBar now={Javascript} label={`${Javascript}%`} />
 
-                        <h1>nodejs</h1>
-                        <ProgressBar now={nodejs} label={`${nodejs}%`} />
-                        <h1>express</h1>
-                        <ProgressBar now={express} label={`${express}%`} />
+                        <h1>Bootstrap</h1>
+                        <ProgressBar now={Bootstrap} label={`${Bootstrap}%`} />
+                        <h1>ReactJs</h1>
+                        <ProgressBar now={ReactJs} label={`${ReactJs}%`} />
 
 
-                        <h1>mongodb</h1>
-                        <ProgressBar now={mongodb} label={`${mongodb}%`} />
+                        <h1>Wordpress</h1>
+                        <ProgressBar now={Wordpress} label={`${Wordpress}%`} />
 
                     </Col>
                     <Col md={6} className='skillwrapper'>
-                        <h1>html</h1>
-                        <ProgressBar now={html} label={`${html}%`} />
+                        <h1>mongodb</h1>
+                        <ProgressBar now={mongodb} label={`${mongodb}%`} />
 
-                        <h1>css</h1>
-                        <ProgressBar now={css} label={`${css}%`} />
+                        <h1>nodeJs</h1>
+                        <ProgressBar now={nodeJs} label={`${nodeJs}%`} />
 
-                        <h1>javascript</h1>
-                        <ProgressBar now={javascript} label={`${javascript}%`} />
-
-                        <h1>nodejs</h1>
-                        <ProgressBar now={nodejs} label={`${nodejs}%`} />
                         <h1>express</h1>
                         <ProgressBar now={express} label={`${express}%`} />
 
+                        <h1>Laravel</h1>
+                        <ProgressBar now={Laravel} label={`${Laravel}%`} />
+                        <h1>Php</h1>
+                        <ProgressBar now={Php} label={`${Php}%`} />
 
-                        <h1>mongodb</h1>
-                        <ProgressBar now={mongodb} label={`${mongodb}%`} />
+
+                        <h1>DatabaseMysql</h1>
+                        <ProgressBar now={DatabaseMysql} label={`${DatabaseMysql}%`} />
                     </Col>
                 </Row>
 
